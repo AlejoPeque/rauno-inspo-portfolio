@@ -6,10 +6,10 @@ import {
   FaPalette,
   FaFolderOpen,
   FaCamera,
-  FaTwitter,
   FaGithub,
   FaEnvelope,
 } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
 
 const DockItem = ({
   IconComponent,
@@ -96,11 +96,11 @@ const Dock = () => {
     { icon: FaFolderOpen, path: "/projects" },
     { icon: FaCamera, path: "/photos" },
     {
-      icon: FaTwitter,
-      path: "https://twitter.com/codegridweb",
+      icon: RiInstagramFill,
+      path: "https://www.instagram.com/",
       external: true,
     },
-    { icon: FaGithub, path: "https://github.com/codegrid", external: true },
+    { icon: FaGithub, path: "https://github.com/", external: true },
     {
       icon: FaEnvelope,
       path: "mailto:contact@codegridweb.com",
